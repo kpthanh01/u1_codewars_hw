@@ -7,7 +7,7 @@ All methods I used/researched can be found at https://developer.mozilla.org/en-U
 ```js
 
 // Using the 'sign method' from the Class Math, I can differentiate wether a number is zero, negative, or positive
-// Then using the ternary operator, which is another way of writing an if-statement, I can return the disired results
+// Then using the ternary operator, which is another way of writing an if-statement, I can return the desired results
 function makeNegative(num) {
   return Math.sign(num) === 1 ? num * -1 : num
 }
